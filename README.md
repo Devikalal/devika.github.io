@@ -1,3 +1,3 @@
 # anjaly.com
-[Visit my Portfolio](https://anjalyg.github.io/anjaly.com/)
+[Visit my Portfolio](https://devika.github.io/devika.github.io/)
 
