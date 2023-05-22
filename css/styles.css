@@ -32,7 +32,7 @@ body.active {
 .no-js #experience-timeline>div h3 {
     font-size: 1.5em;
     font-weight: 300;
-    color: #ffffff;
+    color: #ffffff;	
     display: inline-block;
     margin: 0
 }
@@ -305,7 +305,7 @@ footer {
 #lead-content h1 {
     color: #fff;
     font-weight: 900;
-    font-size: 5em;
+    font-size: 3em;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     line-height: 0.9em
@@ -630,6 +630,7 @@ footer {
     padding: 10px 15px;
     background: #000000;
     text-align: center
+	 
 }
 
 #contact h2 {
@@ -800,7 +801,7 @@ footer {
 
 @media only screen and (max-width: 480px) {
     #lead-content h1 {
-        font-size: 1.5em
+        font-size: 1.2em
     }
     #lead-content h2 {
         font-size: 1em
@@ -814,3 +815,8 @@ footer {
         height: 173px;
     }
 }
+
+h1 {
+ font-size: 20px;
+}
+	
