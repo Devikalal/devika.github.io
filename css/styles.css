@@ -297,7 +297,10 @@ footer {
     text-align: center
 }
 
-#lead-content h1,
+#lead-content h1 {
+font-size: 3em;
+ margin: 0
+}
 #lead-content h2 {
     margin: 0
 }
