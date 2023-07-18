@@ -93,6 +93,9 @@
             $('#more-projects').fadeIn(300);
         });
     });
+    if ($(window).width() < 700) {
+        $('#photo').hide(); // or .container, maybe?
+    }
 })(jQuery);
 
 function openModal() {

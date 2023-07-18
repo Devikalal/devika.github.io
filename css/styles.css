@@ -817,6 +817,11 @@ font-size: 3em;
         width: 239px;
         height: 173px;
     }
+
+    #modal nametext{
+
+    }
+
 }
 
 h1 {
@@ -828,30 +833,30 @@ h1 {
     display: none;
     margin: auto;
     position: auto;
-    padding: 50px;
+    padding: 10px;
     width: 50%;
     height: 100%;
     overflow: auto;
     background-color: black;
-   z-index: 99;
+    z-index: 99;
+    border-radius: 10px;
   }
   /* Modal Content */
 .modal-content {
     position: relative;
-    margin: auto;
-    padding: 0;
     width: 100%;
-    height: 700px;
     z-index: 99;
   }
 /* The Close Button */
 .close {
     color: white;
-    position: absolute;
-    margin-left: auto; 
-    margin-right: 0;
+    position: relative;
+    top: 5px;
+    right: 0px;
     font-size: 35px;
     font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px 5px 10px;
     z-index: 99;
   }
 
@@ -870,7 +875,7 @@ h1 {
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 16px;
+  padding: 1%;
   margin-top: -50px;
   color: white;
   font-weight: bold;
@@ -898,14 +903,15 @@ h1 {
     display: none;
   }
   .slideImage{
-    position: absolute;
+    position: relative;
     margin: auto;
     width: 100%;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-  }
+}
+
   /* Number text (1/3 etc) */
 .numbertext {
     color: #f2f2f2;
@@ -914,4 +920,32 @@ h1 {
     position: absolute;
     top: 0;
   }
+
+    /* Number text (1/3 etc) */
+.nametext {
+    color: #f2f2f2;
+    padding: 8px 12px;
+    position: absolute;
+    left: 50%;
+    right: auto;
+    font-size: 25px;
+    font-weight: bold;
+    top: 0;
+  }
   
+
+  /* The Close Button */
+.closeParent {
+    float: right;
+  }
+
+  @media screen and (max-width: 600px) {
+    #photo {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+  }
